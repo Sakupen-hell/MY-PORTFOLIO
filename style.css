@@ -1,0 +1,454 @@
+:root {
+    --primary-color: #141e30;
+    --secondary-color: #243b55;
+    --accent-color: #0f1720;
+    --text-color: white;
+    --background-gradient: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none
+}
+
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: poppins, sans-serif;
+}
+
+h1,h2{
+    font-family: 'Montserrat', sans-serif;
+}
+.barre-navigation {
+    background: #0f1720;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    
+
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navdiv ul:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+
+}
+.logo a {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+} 
+.logo strong{
+    text-shadow: 0 0 10px white;
+}
+
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+.hero h1 {
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    text-decoration: underline;
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 2.0em;
+    margin-left: 5px;
+}
+
+.hero p strong{
+    text-shadow: 0 0 10px black;
+}
+.hero li {
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+.hero button{
+        width: 50vh;
+        height: 50px;
+        margin-left: 500px;
+        background: black;
+}
+
+#A-propos h1 {
+    margin-top: 40px;
+    margin-left: 40px;
+    color: white;
+    text-decoration: underline;
+}
+
+#A-propos .photo1 {
+    justify-content: center;
+    display: flex;
+    height: auto;
+    margin-left: 20px;
+    overflow: hidden;
+    height: 80vh;
+    
+    
+}
+
+#A-propos p {
+    color: linear-gradient(to right, #141e30, #243b55);
+    font-size: 2.0em;
+    margin-left: 10px;
+}
+
+#A-propos h1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+#A-propos li {
+    color: black;
+    display: flex;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+#A-propos .son{
+    text-decoration: underline;
+    color: #f9f8f8;
+}
+progress{
+    width: 500px;
+    height: 50px;
+    background: linear-gradient(90deg, #00f2fe, #4facfe);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 242, 254, 0.5);
+}
+progress:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.progress-bar1{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.progress-bar1 label{
+    color: white;
+    font-size: 1.5em;
+
+}
+.progress-bar2{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.progress-bar3{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.progress-bar4{
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.progress-bar5{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.progress-bar6{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+#projets h1{
+    margin-left: 30px;
+}
+
+#projets figcaption{
+    color: white;
+    margin-left:300px;
+}
+#projets .projet-1 {
+    display: flex;
+    height: 50vh;
+    margin-top: 20px;
+    margin-left: 50px;
+    justify-content: center;
+   border: 3px solid white;
+   
+}
+#projets .projet-2{
+    display: flex;
+    height: 50vh;
+    margin-top: 20px;
+    margin-left: 850px;
+    justify-content: center;
+   border: 3px solid white;
+
+}
+
+#projets .projet-3{
+    display: flex;
+    height: 50vh;
+    margin-top: 20px;
+    margin-left: 50px;
+    justify-content: center;
+   border: 3px solid white;
+
+}
+#projets video{
+    display: flex;
+    height: 50vh;
+    margin-top: 20px;
+    margin-left: 850px;
+    justify-content: center;
+   border: 3px solid white;
+}
+#projets .sont{
+    margin-left: 1150px;
+}
+#projets .sonth{
+    margin-left: 1150px;
+}
+
+#parcours h1{
+    color: white;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;   
+}
+.timeline::after{
+    content: '';
+    position: absolute;
+   width: 6px;
+   background-color: white;
+   top: 0;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+}
+.timeline h2{
+    color: black;
+}
+.timeline p{
+    color: black;
+}
+.timeline small{
+    color: black;
+}
+.container{
+    position: relative;
+    margin: 50px 0;
+    width: 50%;
+    padding: 20px 30px;
+    background: rgba(0, 0, 0, 0.3);
+   
+}
+.container::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 3px solid #e6d5c3;
+    top: 30px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.text-box{
+    background-color: antiquewhite;
+    position: relative;
+    padding: 20px 30px;
+    border-radius: 6px;
+    font-size: 15px;
+    
+}
+
+.left-container{
+    right: 5%;
+    
+}
+.right-container{
+    left: 50%;
+}
+
+#contact .registration{
+    font-weight: 500;
+
+}
+#contact h1{
+    margin-left: 30px;
+}
+#contact form{
+    justify-content: center;
+    margin-bottom: 100px;
+    align-items: center;
+    margin-left: 200px;
+    width: 40%;
+    padding: 25px 30px;
+    background: #f9f8f8;
+    border-radius: 5px;
+    margin-top: 50px;
+  
+}
+.message{
+    padding: 50px 30px;
+    margin: 10px;
+    
+}
+.NumTel:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.nom:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.email:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.prenom:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+#contact .nom input{
+   height: 30px; 
+   border-radius: 5px;
+}
+#contact .prenom input{
+    height: 30px; 
+    border-radius: 5px;
+}
+#contact .email input{
+    height: 30px; 
+    border-radius: 5px;
+}
+#contact .NumTel input{
+    height: 30px; 
+    border-radius: 5px;
+}  
+#contact .submit-btn button{
+    margin: 45px;
+    height: 50px;
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #141e30, #243b55);
+    font-size: 2.0em;
+    color: white;
+}
+#contact .submit-btn button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+
+}
+    
+
+.Footer{
+    margin-top: 130px;
+    background-color: black;
+    
+}
+.Footer p{
+    color: white;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.footer .info p{
+    font-size: 15px;
+    line-height: 0px;
+}
+.retour a{
+    margin-left: 800px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+   
+   
+}
+
+
+@media (max-width: 768px) {
+
+     .navdiv {
+        flex-direction: column;
+        align-items: center;
+    }
+    li {
+        display: block;
+        margin: 10px 0;
+    }
+    .hero button {
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+    }
+    .A-propos .photo1 {
+        height: auto;
+        width: 90%;
+    }
+    A-propos p {
+        font-size: 1.2em;
+        margin: 10px;
+    }
+    .progress-bar1, .progress-bar2, .progress-bar3, .progress-bar4, .progress-bar5, .progress-bar6 {
+        margin-left: 0;
+        text-align: center;
+    }
+    progress{
+        width: 90%;
+    }
+    #projets .projet-1, #projets .projet-2, #projets .projet-3, #projets video {
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+    }
+    .timeline::after {
+        left: 20px;
+    }
+    .container {
+        width: 100%;
+        margin-left: 60px;
+        margin-right: 20px;
+    }
+    .left-container, .right-container {
+        left: 0;
+    }
+    #contact form {
+        width: 100%;
+        margin-left: 0;
+    }
+    .info {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .Footer .retour {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
